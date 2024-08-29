@@ -1,0 +1,32 @@
+ .u-section-1 {
+  background-image: none;
+  min-height: 658px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 697px;
+  height: 697px;
+  margin: 24px auto -63px;
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 501px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 301px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 340px;
+  }
+}
